@@ -1,7 +1,6 @@
 from scipy.constants import e, h, hbar
 from math import pi
 
-
 C_q = 90e-15
 Phi = 0
 
