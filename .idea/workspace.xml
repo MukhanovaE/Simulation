@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Simulations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Simulations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Bloch_sphere.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/LinearAlgebraFunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/Parametrs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Parametrs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,28 @@
       <recent name="C:\Users\Katia\Documents\Qbit\PYTON\Simulations" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.Bloch_sphere">
+    <configuration name="Bloch_sphere" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Simulations" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Bloch_sphere.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LinearAlgebraFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simulations" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Bloch_sphere" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.LinearAlgebraFunctions" />
       </list>
@@ -157,22 +180,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1584715748014" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584718076241">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584791296018">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584718076241" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584718076240">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584791296018" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584791296018">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584718076240" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584718076240">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584791296018" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584791296017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584718076240" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584718076240">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584791296017" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584791296018">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584718076240" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584791296018" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1584790948018">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584790948018" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1584790948017">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584790948017" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1584790948016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584790948016" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1584790948018">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584790948018" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1584718004279">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
