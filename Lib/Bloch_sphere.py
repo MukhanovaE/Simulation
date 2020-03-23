@@ -1,30 +1,47 @@
 from scipy import *
-import qutip as qt
+from qutip import *
 import numpy as np
 import sys
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-from scipy import optimize
-from scipy.optimize import curve_fit
-from scipy.optimize import least_squares
 
+
+# http://qutip.org/docs/4.1/guide/guide-bloch.html
 
 class bloch_convert():
     def r_to_rho(r):
-        rho = [[0, 0],[0,0]]
+        # conversion bloch vector to density matrix
+        rho = [[0, 0], [0, 0]]
         if np.linalg.norm(r) <= 1.:
-            rho = (qt.qeye(2) + r[0] * qt.sigmax() + r[1] * qt.sigmay() + r[2] * qt.sigmaz())/2
+            rho = (qeye(2) + r[0] * sigmax() + r[1] * sigmay() + r[2] * sigmaz()) / 2
         else:
             print("ERROR: norm of r is more than 1")
             sys.exit()
         return rho
+
     def rho_to_r(rho):
+        # conversion density matrix to bloch vector
         r = np.array([0, 0, 0])
-        if ((rho[0,0]+rho[1,1])==1):
-            r[2] = (rho[0,0]-rho[1,1]).real
-            r[1] = 2*(rho[1,0]).imag
-            r[0] = 2*(rho[1,0]).real
+        if ((rho[0, 0] + rho[1, 1]) == 1):
+            r[2] = (rho[0, 0] - rho[1, 1]).real
+            r[1] = 2 * (rho[1, 0]).imag
+            r[0] = 2 * (rho[1, 0]).real
         else:
             print("Trace <> 1")
+            sys.exit()
         return r
 
+    def pure_state(rho):
+        # checking if the state is pure
+        if ((rho * rho) == rho):
+            print("Pure state")
+        else:
+            print("Mixed state")
+
+class sphere_drow():
+    def axes():
+        b = Bloch()
+        up = basis(2, 0)
+        x = (basis(2, 0) + (1 + 0j) * basis(2, 1)).unit()
+        y = (basis(2, 0) + (0 + 1j) * basis(2, 1)).unit()
+        z = (basis(2, 0) + (0 + 0j) * basis(2, 1)).unit()
+        b.add_states([x, y, z])
+        return b
