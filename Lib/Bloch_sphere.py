@@ -6,7 +6,7 @@ import sys
 
 # http://qutip.org/docs/4.1/guide/guide-bloch.html
 
-class bloch_convert():
+class convert():
     def r_to_rho(r):
         # conversion bloch vector to density matrix
         rho = [[0, 0], [0, 0]]

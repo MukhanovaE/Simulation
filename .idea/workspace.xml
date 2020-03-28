@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lib/RWA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_imports.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lib/Bloch_sphere.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Bloch_sphere.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lib/Parametrs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Parametrs.py" afterDir="false" />
@@ -213,6 +211,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="20.03.2020" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Inspections" timestamp="1585212830329">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1585212830329" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584647648080">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -229,22 +231,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1584715748014" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584875266600">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584974763439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584875266600" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584875266600">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584974763439" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584974763439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584875266600" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584875266599">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584974763439" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584974763439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584875266599" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584875266600">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584974763439" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584974763439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584875266600" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584974763439" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1584810375708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -269,5 +271,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584791501199" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585120730249">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585120730249" />
   </component>
 </project>
