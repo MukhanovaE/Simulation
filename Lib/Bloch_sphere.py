@@ -2,7 +2,8 @@ from scipy import *
 from qutip import *
 import numpy as np
 import sys
-
+from matplotlib import *
+from matplotlib import colors
 
 # http://qutip.org/docs/4.1/guide/guide-bloch.html
 
@@ -36,7 +37,7 @@ class convert():
         else:
             print("Mixed state")
 
-class sphere_drow():
+class sphere():
     def axes():
         b = Bloch()
         up = basis(2, 0)
@@ -45,3 +46,5 @@ class sphere_drow():
         z = (basis(2, 0) + (0 + 0j) * basis(2, 1)).unit()
         b.add_states([x, y, z])
         return b
+
+
