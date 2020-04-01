@@ -16,3 +16,5 @@ def E_J():
 g  = 0.05 * 2 * pi  # coupling strength
 kappa = 0.005       # cavity dissipation rate
 gamma = 0.05        # atom dissipation rate
+
+Omega_Rabi = 2*pi*1e-1

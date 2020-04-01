@@ -7,6 +7,7 @@ from matplotlib import colors
 
 # http://qutip.org/docs/4.1/guide/guide-bloch.html
 
+
 class convert():
     def r_to_rho(r):
         # conversion bloch vector to density matrix

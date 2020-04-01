@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/Bloch_sphere.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Bloch_sphere.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_imports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

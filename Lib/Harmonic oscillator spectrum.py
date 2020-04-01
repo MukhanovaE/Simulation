@@ -2,7 +2,6 @@ from scipy import *
 from qutip import *
 from sympy import *
 from matplotlib import *
-import numpy as np
 import matplotlib.pyplot as plt
 
 from matplotlib import colors
