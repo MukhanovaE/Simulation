@@ -2,11 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Analytical simulation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Numerical Simulation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analytical simulation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Numerical Simulation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/anticommutator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/boson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/cg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/commutator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/dagger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/density.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/expectation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/fermion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/hilbert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/innerproduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/operatorordering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/operatorset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/pauli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/qapply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/qexpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/qutility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/represent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/spin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/tensorproduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sympsi/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/Bloch_sphere.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Bloch_sphere.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/Parametrs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Parametrs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Simulation-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/RWA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_imports.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +94,7 @@
       <recent name="C:\Users\Katia\Documents\Qbit\PYTON\Simulations\Lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Harmonic oscillator spectrum">
+  <component name="RunManager" selected="Python.Test">
     <configuration name="Bloch_sphere" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simulations" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Parametrs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simulations" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Parametrs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,28 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RWA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Simulations" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/RWA.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="basic_imports" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simulations" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,7 +170,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Katia\Documents\Qbit\PYTON\Simulations\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_imports.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dagger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Simulations" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sympsi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sympsi/dagger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.dagger" />
+        <item itemvalue="Python.basic_imports" />
         <item itemvalue="Python.Harmonic oscillator spectrum" />
         <item itemvalue="Python.Bloch_sphere" />
-        <item itemvalue="Python.RWA" />
-        <item itemvalue="Python.Parametrs" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -212,10 +244,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="20.03.2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Inspections" timestamp="1585212830329">
+    <state x="233" y="0" key="#Inspections" timestamp="1585994396869">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1585212830329" />
+    <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1585994396869" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584647648080">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -232,22 +264,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1584715748014" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585737639873">
+    <state width="628" height="163" key="GridCell.Tab.0.bottom" timestamp="1585997677782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585737639873" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585737639873">
+    <state width="628" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585997677782" />
+    <state width="628" height="163" key="GridCell.Tab.0.center" timestamp="1585997677782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585737639873" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585737639873">
+    <state width="628" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585997677782" />
+    <state width="628" height="163" key="GridCell.Tab.0.left" timestamp="1585997677782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585737639873" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585737639873">
+    <state width="628" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585997677782" />
+    <state width="628" height="163" key="GridCell.Tab.0.right" timestamp="1585997677782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585737639873" />
+    <state width="628" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585997677782" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1584810375708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -264,17 +296,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584810375708" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1584718004279">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1585998062067">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584718004279" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585998062067" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584791501199">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584791501199" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585120730249">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585992060283">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585120730249" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585992060283" />
   </component>
 </project>
