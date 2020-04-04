@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Analytical simulation-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Numerical Simulation-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analytical simulation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numerical Simulation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/anticommutator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/boson.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/cg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/commutator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/dagger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/density.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/expectation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/fermion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/hilbert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/innerproduct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/operatorordering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/operatorset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/pauli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/qapply.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/qexpr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/qutility.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/represent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/spin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/tensorproduct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sympsi/version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Simulation-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/RWA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_imports.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,22 +229,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1584715748014" />
-    <state width="628" height="163" key="GridCell.Tab.0.bottom" timestamp="1585997677782">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1585998407429">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="628" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585997677782" />
-    <state width="628" height="163" key="GridCell.Tab.0.center" timestamp="1585997677782">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585998407429" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1585998407429">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="628" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585997677782" />
-    <state width="628" height="163" key="GridCell.Tab.0.left" timestamp="1585997677782">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585998407429" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1585998407429">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="628" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585997677782" />
-    <state width="628" height="163" key="GridCell.Tab.0.right" timestamp="1585997677782">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585998407429" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1585998407429">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="628" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585997677782" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585998407429" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1584810375708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -300,10 +265,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585998062067" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1584791501199">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1585998990509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584791501199" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1585998990509" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585992060283">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
