@@ -1,4 +1,5 @@
-.gitignore
-venv
+# Created by .ignore support plugin (hsz.mobi)
 Lib/Test.py
-basic_imports.py
+/basic_imports.py
+venv/
+.gitignore

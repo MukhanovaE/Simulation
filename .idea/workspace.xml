@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="" />
+    <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_imports.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -248,6 +253,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584713810355" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1586076174823">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1586076174823" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586026287501">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -292,10 +301,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="167" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586074958396" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1585998990509">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586075461114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1585998990509" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586075461114" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586025978950">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
