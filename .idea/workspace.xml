@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Error test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simbol_Lindblad_Equation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solve_Simbol_Equation_Example.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytical simulation.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +67,8 @@
       <recent name="C:\Users\Katia\Documents\Qbit\PYTON\Simulations\Lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test">
-    <configuration name="Bloch_sphere" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Error test">
+    <configuration name="Error test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simulations" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Bloch_sphere.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Error test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Error test" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.basic_imports" />
         <item itemvalue="Python.dagger" />
         <item itemvalue="Python.Harmonic oscillator spectrum" />
-        <item itemvalue="Python.Bloch_sphere" />
       </list>
     </recent_temporary>
   </component>
@@ -263,22 +266,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1584715748014" />
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1586078245603">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1586101548140">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586078245603" />
-    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1586078245603">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586101548140" />
+    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1586101548140">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586078245603" />
-    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1586078245602">
+    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586101548140" />
+    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1586101548140">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586078245602" />
-    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1586078245603">
+    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586101548140" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1586101548140">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586078245603" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586101548140" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1584810375708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -307,5 +310,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586025978950" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586122042902">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586122042902" />
   </component>
 </project>
