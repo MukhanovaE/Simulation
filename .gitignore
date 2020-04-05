@@ -3,3 +3,6 @@ Lib/Test.py
 /basic_imports.py
 venv/
 .gitignore
+.ipynb_checkpoints
+Lib/.ipynb_checkpoints
+
