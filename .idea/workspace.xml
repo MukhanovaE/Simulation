@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytical simulation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Analytical simulation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TEST.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -262,22 +256,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1584715748014" />
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1586029932270">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1586074969353">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586029932270" />
-    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1586029932270">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586074969353" />
+    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1586074969353">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586029932270" />
-    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1586029932270">
+    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586074969353" />
+    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1586074969353">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586029932270" />
-    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1586029932270">
+    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586074969353" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1586074969353">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586029932270" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586074969353" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1584810375708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -294,10 +288,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584810375708" />
-    <state x="167" y="0" key="SettingsEditor" timestamp="1586033290511">
+    <state x="167" y="0" key="SettingsEditor" timestamp="1586074958396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="167" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586033290511" />
+    <state x="167" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586074958396" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1585998990509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
