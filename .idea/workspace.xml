@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Energy spectrum of the transmon-resonator system.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simbol_Lindblad_Equation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Simbol_Lindblad_Equation.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Single tone.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Single tone.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test files/Solve_Simbol_Equation_Example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Test files/Solve_Simbol_Equation_Example.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
