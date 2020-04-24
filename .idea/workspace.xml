@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bloch sqhere decay.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Single tone.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Energy spectrum of the transmon-resonator system.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Numerical Simulation.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test files/Error test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test files/Error test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simbol_Lindblad_Equation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Simbol_Lindblad_Equation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single tone.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Single tone.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test files/Solve_Simbol_Equation_Example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Test files/Solve_Simbol_Equation_Example.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -68,7 +69,28 @@
       <recent name="C:\Users\Katia\Documents\Qbit\PYTON\Simulations\Lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Error test">
+  <component name="RunManager" selected="Python.Harmonic oscillator spectrum">
+    <configuration name="Bloch_sphere" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Simulations" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Bloch_sphere.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Error test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simulations" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,34 +175,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dagger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Simulations" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sympsi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sympsi/dagger.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Harmonic oscillator spectrum" />
+        <item itemvalue="Python.Bloch_sphere" />
         <item itemvalue="Python.Error test" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.basic_imports" />
-        <item itemvalue="Python.dagger" />
-        <item itemvalue="Python.Harmonic oscillator spectrum" />
       </list>
     </recent_temporary>
   </component>
@@ -267,22 +268,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1584715748014" />
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1586718920216">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1587673210746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586718920216" />
-    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1586718920216">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587673210746" />
+    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1587673210746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586718920216" />
-    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1586718920216">
+    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587673210746" />
+    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1587673210745">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586718920216" />
-    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1586718920216">
+    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587673210745" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1587673210746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586718920216" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587673210746" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1584810375708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -299,10 +300,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584810375708" />
-    <state x="167" y="0" key="SettingsEditor" timestamp="1586074958396">
+    <state x="167" y="0" key="SettingsEditor" timestamp="1586788116144">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="167" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586074958396" />
+    <state x="167" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586788116144" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586075461114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

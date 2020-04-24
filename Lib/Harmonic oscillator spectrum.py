@@ -1,5 +1,6 @@
 from scipy import *
 from qutip import *
+import numpy as np
 from sympy import *
 from matplotlib import *
 import matplotlib.pyplot as plt
