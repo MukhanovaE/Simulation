@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lib/Resonator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two Tone.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloch sqhere decay.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Bloch sqhere decay.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test files/Harmonic oscillator spectrum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/Parametrs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Parametrs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Single tone.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Single tone.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +69,7 @@
       <recent name="C:\Users\Katia\Documents\Qbit\PYTON\Simulations\Lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Harmonic oscillator spectrum">
+  <component name="RunManager" selected="Python.Resonator">
     <configuration name="Bloch_sphere" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simulations" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Harmonic oscillator spectrum.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Katia\Documents\Qbit\PYTON\Simulations\Test files\Harmonic oscillator spectrum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Parametrs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simulations" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,7 +145,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Parametrs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="basic_imports" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Resonator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simulations" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_imports.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lib/Resonator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Resonator" />
+        <item itemvalue="Python.Parametrs" />
         <item itemvalue="Python.Harmonic oscillator spectrum" />
         <item itemvalue="Python.Bloch_sphere" />
         <item itemvalue="Python.Error test" />
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.basic_imports" />
       </list>
     </recent_temporary>
   </component>
@@ -265,22 +268,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1584715748014" />
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1587673210746">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1589291003897">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587673210746" />
-    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1587673210746">
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589291003896" />
+    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1589291003896">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587673210746" />
-    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1587673210745">
+    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589291003896" />
+    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1589291003847">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587673210745" />
-    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1587673210746">
+    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589291003847" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1589291003896">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587673210746" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589291003896" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1584810375708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
