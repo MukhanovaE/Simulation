@@ -20,6 +20,8 @@ def Chi(Current, tipe = '01'):
 
     if tipe == '01':
         chi = chi01
+    elif tipe == '-01':
+        chi = -chi01
     elif tipe == '12':
         chi = chi12
     elif tipe == 'total':
