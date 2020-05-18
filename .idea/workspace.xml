@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/Resonator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Resonator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/Parametrs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Parametrs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single tone.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Single tone.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Two Tone.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Two Tone.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
