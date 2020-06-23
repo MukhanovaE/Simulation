@@ -34,9 +34,9 @@ OmQ_exp = 5.3e9 #qubit frequency from experiment
 Ql = 3e3
 Qc = 2.9e3
 
-tau = 10.**(-9)
+tau = 10.**(-10)
 phi = pi/6
-amp = 1.
+amp = 0.6
 
 #Asymmetric transmon E_J1 = a E_J2
 E_J_max = (OmQ_exp+E_C)**2/(8*E_C) #from frequency at sweet spot
@@ -53,7 +53,6 @@ Vrms = np.sqrt(hbar*Om_r/2/Cr)
 g = 50e6
 
 
-g  = 0.05 * 2 * pi  # coupling strength
 kappa = 0.005       # cavity dissipation rate
 gamma = 0.05        # atom dissipation rate
 

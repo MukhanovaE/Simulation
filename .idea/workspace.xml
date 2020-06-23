@@ -4,6 +4,7 @@
     <list default="true" id="bc04a4f1-bdbc-46d7-a2bf-7712fba04299" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lib/Parametrs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Parametrs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/Resonator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Resonator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Single tone.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Single tone.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Two Tone.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Two Tone.ipynb" afterDir="false" />
     </list>
@@ -298,10 +299,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584810375708" />
-    <state x="167" y="0" key="SettingsEditor" timestamp="1586788116144">
+    <state x="167" y="0" key="SettingsEditor" timestamp="1590148111874">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="167" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586788116144" />
+    <state x="167" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1590148111874" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586075461114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -15,22 +15,22 @@ def Chi(Current, tipe = '01'):
 
     chi01 = g01 ** 2 / (OmQ - Om_r)
     chi12 = g12 ** 2 / (OmQ - E_C - Om_r)
-    chi = chi01 - chi12 / 2
     chi_approx = g01 ** 2 * alpha / ((OmQ - Om_r) * (OmQ - E_C - Om_r))
 
+
     if tipe == '01':
-        chi = chi01
-    elif tipe == '-01':
-        chi = -chi01
+        chi_tot = chi01
     elif tipe == '12':
-        chi = chi12
-    elif tipe == 'total':
-        chi = chi
+        chi_tot = chi12
     elif tipe == 'approx':
-        chi = chi_approx
+        chi_tot = chi_approx
+    elif tipe == '0':
+        chi_tot = chi01
+    elif tipe == '1':
+        chi_tot = chi01 - chi12
     elif tipe == 'no':
-        chi = 0
-    return chi
+        chi_tot = 0
+    return chi_tot
 
 
 def function_S21(f, Current):
