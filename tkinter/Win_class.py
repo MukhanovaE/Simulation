@@ -1,3 +1,5 @@
+import calendar
+
 import matplotlib
 matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
@@ -9,26 +11,17 @@ from matplotlib import style
 import  tkinter as tk
 from tkinter import ttk
 
-import urllib
-import json
-import pandas as pd
-import numpy as np
+LARGE_FONT = ("Verdana", 14)
+NORM_FONT = ("Verdana", 12)
+SMALL_FONT = ("Verdana", 10)
 
-
-LARGE_FONT = ("Verdana", 12)
-NORM_FONT = ("Verdana", 10)
-SMALL_FONT = ("Verdana", 8)
 
 plt.style.use("tableau-colorblind10")
 
-
-
-f = Figure(figsize=(5, 5), dpi=100)
+f = Figure()
 a = f.add_subplot(111)
 
 colorStyle = {'1': "#e8ebf2", '2': "#a3b1bc", '3': "#4e606e", '4': "#1d242a"}
-
-
 
 def popupmsg(msg):
     popup = tk.Tk()
@@ -44,11 +37,11 @@ def popupmsg(msg):
     B1.grid(column=0, row=2)
     popup.mainloop()
 
-
 def animate(i):
     pullData = open("sampleData.txt", "r").read()
     dataList = pullData.split('\n')
     xlist = []
+    x2list = []
     ylist = []
     for eachLine in dataList:
         if len(eachLine) > 1:
@@ -57,6 +50,16 @@ def animate(i):
             ylist.append(int(y))
     a.clear()
     a.plot(xlist, ylist)
+
+def createNewWindow():
+    vv = tk.Tk()
+    vv.geometry('700x500+300+10')
+    canvas = FigureCanvasTkAgg(f, vv)
+    canvas.draw()
+    toolbar = NavigationToolbar2Tk(canvas, vv, pack_toolbar=True)
+    toolbar.update()
+    canvas.get_tk_widget().pack()
+    canvas._tkcanvas.pack()
 
 
 class SeaofCMeas(tk.Tk):
@@ -70,8 +73,8 @@ class SeaofCMeas(tk.Tk):
 
         container = tk.Frame(self)
         container.grid(column=0, row=0)
-        container.grid_rowconfigure(3, weight=1)
-        container.grid_columnconfigure(3, weight=1)
+        # container.grid_rowconfigure((0, 1, 2), weight=1)
+        # container.grid_columnconfigure(1, weight=1)
 
         menubar = tk.Menu(container)
         filemenu = tk.Menu(menubar, tearoff=0)
@@ -111,7 +114,7 @@ class StartPage(tk.Frame):
         ttk.Separator(self, orient='vertical').grid(column=1, row=1, rowspan=5, sticky="SEN")
 
         ttk.Button(self, text="Home", style='W.TButton',
-                            command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
+                   command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
         ttk.Button(self, text="R(T)", style='W.TButton',
                    command=lambda: controller.show_frame(R_T)).grid(column=0, row=2, ipady=2, ipadx=10)
         ttk.Button(self, text="I-V", style='W.TButton',
@@ -131,7 +134,7 @@ class R_T(tk.Frame):
         ttk.Separator(self, orient='horizontal').grid(column=0, row=0, columnspan=2, sticky="SEW")
 
         ttk.Button(self, text="Home", style='W.TButton',
-                            command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
+                   command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
         ttk.Button(self, text="R(T)", style='W.TButton',
                    command=lambda: controller.show_frame(R_T)).grid(column=0, row=2, ipady=2, ipadx=10)
         ttk.Button(self, text="I-V", style='W.TButton',
@@ -154,7 +157,7 @@ class I_V(tk.Frame):
         ttk.Label(self, text="I-V", foreground=colorStyle['2'], background=colorStyle['1'],  font=LARGE_FONT).grid(column=0, row=0, ipady=3, ipadx=10)
 
         ttk.Button(self, text="Home", style='W.TButton',
-                            command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
+                   command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
         ttk.Button(self, text="R(T)", style='W.TButton',
                    command=lambda: controller.show_frame(R_T)).grid(column=0, row=2, ipady=2, ipadx=10)
         ttk.Button(self, text="I-V", style='W.TButton',
@@ -172,7 +175,7 @@ class I_V_H(tk.Frame):
 
 
         ttk.Button(self, text="Home", style='W.TButton',
-                            command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
+                   command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
         ttk.Button(self, text="R(T)", style='W.TButton',
                    command=lambda: controller.show_frame(R_T)).grid(column=0, row=2, ipady=2, ipadx=10)
         ttk.Button(self, text="I-V", style='W.TButton',
@@ -181,23 +184,15 @@ class I_V_H(tk.Frame):
                    command=lambda: controller.show_frame(I_V_H)).grid(column=0, row=4, ipady=2, ipadx=10)
         ttk.Button(self, text="Show", style='W.TButton',
                    command=lambda: controller.show_frame(SMopen)).grid(column=0, row=5, ipady=2, ipadx=10)
-
-        # canvas = FigureCanvasTkAgg(f, self)
-        # canvas.get_tk_widget().grid(row=3, column=3)
-        #
-        # toolbar = NavigationToolbar2Tk(canvas, self, pack_toolbar=False)
-        # toolbar.update()
-        #
-        # canvas._tkcanvas.grid(row=4, column=3)
 
 
 class SMopen(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
-        ttk.Label(self, text="Show Plot", foreground=colorStyle['2'], background=colorStyle['1'],  font=LARGE_FONT).grid(column=0, row=0, ipady=3, ipadx=10)
+        ttk.Label(self, text="Show Plot", foreground=colorStyle['2'], background=colorStyle['1'], font=LARGE_FONT).grid(column=0, row=0, ipady=3, ipadx=10)
 
         ttk.Button(self, text="Home", style='W.TButton',
-                            command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
+                   command=lambda: controller.show_frame(StartPage)).grid(column=0, row=1, ipady=2, ipadx=10)
         ttk.Button(self, text="R(T)", style='W.TButton',
                    command=lambda: controller.show_frame(R_T)).grid(column=0, row=2, ipady=2, ipadx=10)
         ttk.Button(self, text="I-V", style='W.TButton',
@@ -207,16 +202,23 @@ class SMopen(tk.Frame):
         ttk.Button(self, text="Show", style='W.TButton',
                    command=lambda: controller.show_frame(SMopen)).grid(column=0, row=5, ipady=2, ipadx=10)
 
-        canvas = FigureCanvasTkAgg(f, self)
-        canvas.get_tk_widget().grid(row=3, column=3)
+        ttk.Label(self, text="Enter file root", foreground=colorStyle['2'], background=colorStyle['1'], font=LARGE_FONT).grid(
+            column=1, row=1, ipady=3, ipadx=10, sticky="SEW")
+        ttk.Label(self, text="Folder", foreground=colorStyle['2'], background=colorStyle['1'], font=NORM_FONT).grid(
+            column=1, row=2, ipady=3, ipadx=10, sticky="SEW")
+        ttk.Label(self, text="Time", foreground=colorStyle['2'], background=colorStyle['1'], font=NORM_FONT).grid(
+            column=1, row=3, ipady=3, ipadx=10, sticky="SEW")
+        ttk.Separator(self, orient='horizontal').grid(column=1, row=3, sticky="SEW")
 
-        toolbar = NavigationToolbar2Tk(canvas, self, pack_toolbar=False)
-        toolbar.update()
-        canvas._tkcanvas.grid(row=4, column=3)
+
+        #ttk.Entry(self, textvariable=fileroot).grid(column=2, row=1, ipady=2, ipadx=10)
+
+        ttk.Button(self, text="Show Plot", style='W.TButton',
+                   command=createNewWindow).grid(column=1, row=6, ipady=2, ipadx=10)
 
 
 app = SeaofCMeas()
-app.geometry('800x650+10+10')
+app.geometry('500x700+10+10')
 ani = animation.FuncAnimation(f, animate, interval=1000)
 app.mainloop()
 
